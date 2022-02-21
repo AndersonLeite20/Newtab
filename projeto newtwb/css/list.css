@@ -9,14 +9,11 @@ tr.t1 {
      color: white;
      margin-top: 15px;
 }
-tr:nth-child(3n) {
-     background-color: rgba(59, 55, 55, 0.283); {
+tr:nth-child(3n){
+     background-color: rgba(59, 55, 55, 0.283); 
      border-top: 1px solid white;
 }
 td {
      padding: 5px;
      text-align: center;
-}
-button {
-     
 }
