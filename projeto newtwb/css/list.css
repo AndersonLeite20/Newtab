@@ -1,0 +1,22 @@
+@charset "utf-8";
+table {
+     border-spacing: 0ch;
+     
+     padding: 5px;
+}
+tr.t1 {
+     background-color: rgba(0, 0, 0, 0.767);
+     color: white;
+     margin-top: 15px;
+}
+tr:nth-child(3n) {
+     background-color: rgba(59, 55, 55, 0.283); {
+     border-top: 1px solid white;
+}
+td {
+     padding: 5px;
+     text-align: center;
+}
+button {
+     
+}

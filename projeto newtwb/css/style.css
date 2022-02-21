@@ -23,3 +23,6 @@ section.menu > a {
      padding: 5px;
      margin-top: 15px;
 }
+table {
+     width: 100%;
+}
