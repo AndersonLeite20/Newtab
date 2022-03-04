@@ -5,7 +5,8 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>projeto exemplo</title>
-     <link rel="stylesheet" href="./css/style.css">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="./css/form.css">
 </head>
 <body>
      <header class="cabecalho">
@@ -16,7 +17,29 @@
           <a href="form.html">cadastrar</a>       
      </section>
      <section>
-          form
+         <form class="formulario">
+              <div>
+                   <label class="labelgrande" for="name">Nome</label>
+                   <input class="inpt" name="name" required type="text">
+              </div>             
+
+              <div>
+                   <label class="labelgrande" for="name">Telefone</label>
+                   <input class="inpt" name="phone" required type="text" >
+              </div>
+
+              <div class="experiencia">
+                   <label>Experiencia prévia</label> 
+               </div>    
+               <div class="rad">
+                    <input type="radio" name="xp" id="xp-yes"> 
+                    <label>sim</label>
+                    <br>
+                    <input type="radio" name="xp" id="xp-no">
+                    <label>não</label>        
+               </div>
+                    <input type="submit" value="savar">
+         </form>
      </section>
 </body>
 </html>
