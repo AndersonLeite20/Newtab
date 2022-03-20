@@ -1,0 +1,268 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2? family= Lato & display=swap');
+*{
+     margin: 0px;
+     padding: 0px;
+}
+body {
+     ;
+}
+main {
+     background-color:white;
+     width: 371px;
+     height: 285px;
+     padding: 20px 20px 20px 20px;
+}
+.mainp1 {
+     width: 180px;
+     height: 20px;
+     top: 21px;
+     font-size: 22px;
+     left: 109px;
+     line-height: 22px;
+     margin: auto;
+}
+.maindiv1 {
+     display: flex;
+     justify-content: space-between;
+     position: relative;
+     border-bottom: 1px solid #979797;
+     width: 371px;
+     top: 22px;
+     left: 0px;
+     right: 0px;
+}
+.maindiv-a {
+     font-size: 14px;
+     line-height: 22px;
+     font-style: normal;
+     font-weight: bold;
+}
+.maindiv-a > p {
+     position: absolute;
+     width: 72px;
+     height: 22px;
+     left: 30px;
+     top: 0px;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 22px;
+     color: black;
+}
+.maindiv-b {
+     width: 33px;
+     height: 22px;
+     left: 296px;
+}
+.maindiv-b > p {
+     position: absolute;
+     width: 33px;
+     height: 22px;
+     left: 296px;
+     font-size: 14px;
+     line-height: 22px;
+     top: 0px;
+     font-weight: 700;
+     color: #000000;
+     font-style: normal;
+}
+.maindiv2 {
+     display: flex;
+     position: relative;
+     top: 25px;
+     border-bottom: 1px solid #979797;
+     width: 371px;
+     padding-bottom: 20px;
+}
+.maindiv2 > p {
+     display: flex;
+     position: absolute;
+     width: 9px;
+     height: 25.35px;
+     left: 10px;
+     font-size: 14px;
+     top: 29px;
+     font-weight: 400;
+     line-height: 16px;
+     color: #000000;
+}
+.div-2-div-b {
+     position: absolute;
+     width: 231px;
+     height: 34px;
+     left: 30px;
+     top: 7px;
+     font-size: 14px;
+     line-height: 16px;
+     font-weight: 400;
+     color: #000000;
+}
+.div-2-div-c {
+     width: 98px;
+     height: 41.83px;
+     top: 7px;
+     left: 263px;
+     display: contents;
+}
+.div-2-div-c > p {
+     position: absolute;
+     width: 98px;
+     left: 263px;
+     height: 41.83px;
+     font-style: normal;
+     font-weight: 400;
+     top: 7px;
+     font-size: 14px;
+     line-height: 22px;
+     text-align: right;
+     color: black;
+}
+.divp- {
+
+     width: 9px;
+     height: 25.35px;
+     left: 10px;
+     top: 78px;
+}
+.divp- > p {
+    width: 9px;
+    height: 25.35px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    text-align: center;
+}
+.div-2-div-d {
+     width: 231px;
+     height: 18px;
+     left: 5px;
+     position: relative;
+}
+.div-2-div-d > p {
+     width: 231px;
+     height: 18px;
+     left: 30px;
+     top: 78px;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 16px; 
+}
+.div-meio {
+     display: flex;
+     justify-content: space-between;
+     position: relative;
+     width: 371px;
+     height: 28px;
+     top: 28px;
+     border-bottom: 1px solid #979797;
+     padding-top: 7px;
+}
+.div-2-div-e {
+     width: 98px;
+     height: 18px;
+     top: 78px;
+     left: 26px;
+     font-size: 14px;
+     line-height: 22px;
+     text-align: right;
+     padding-right: 4px;
+}
+.div-2-div-e > P {
+     width: 98px;
+     height: 18px;
+     left: 263px;
+     color: #000000;
+     font-weight: 400;
+     text-align: revert;
+     line-height: 22px;
+     font-style: normal;
+     font-size: 14px;
+     top: 78px;
+}
+.div-pai-fim {
+     width: 371px;
+     height: 81px;
+     display: flex;
+     justify-content: space-between;
+     top: 42px;
+     position: relative;
+     border-top: 1px solid #979797;
+     padding-top: 11px;
+     margin-top: -13px;
+}
+.total {
+     width: 72px;
+     height: 18px;
+     top: 15px;
+     left: 30px;
+     font-weight: 700;
+     font-style: normal;
+     font-size: 14px;
+     line-height: 16px;
+}
+.saldo-lucro {
+     display: flex;
+     left: 263px;
+     flex-direction: column;
+     height: 37px;
+     width: 98px;
+     position: absolute;
+}
+.saldo {
+     width: 98px;
+     height: 18px;
+     top: 151px;
+
+     left: 263px;
+
+}
+.saldo > p {
+     font-weight: 700;
+     font-style: normal;
+     font-size: 14px;
+     line-height: 22px;
+     text-align: right;
+     top: 151px;
+}
+.lucro {
+     width: 98px;
+     height: 18px;
+     
+     font-weight: 400;
+     font-size: 10px;
+     line-height: 22px;
+     text-align: right;
+}
+.lucro > p {
+     position: sticky;
+     width: 98px;
+     height: 18px;
+     left: 263px;
+     top: 169px;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 10px;
+     line-height: 22px;
+     text-align: right;
+     color: #000000;
+}
+
+
+
+
+
+
+
+footer {
+     background-color: #333333;
+     width: 411px;
+     height: 8px;
+     top: 723px;
+}
+
+
+
+
