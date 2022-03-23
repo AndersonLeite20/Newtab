@@ -15,7 +15,6 @@ header {
      position: relative;
      width: 411px;
      height: 75px;
-     top: 24px;
      margin: auto;
 }
 .leyout {
@@ -57,7 +56,7 @@ header {
      height: 27.62px;
      position: absolute;
      left: 22px;
-     top: 6px;
+     top: 11px;
 }
 .chec {
      display: none;
@@ -154,16 +153,13 @@ ul {
      display: block;
      background-color: white;
 }
-
-
-
-
-
 section {
      width: 411px;
      height: 723px;
-     margin: auto;
-     
+     margin: auto;    
+}
+.formtitulo {
+     display: none;
 }
 form {
      background-color: white;
@@ -222,7 +218,6 @@ form {
      line-height: 22px;
      color: #888888;
 }
-
 .button {
      display: flex;
      justify-content: center;
@@ -242,14 +237,94 @@ button {
      font-style: initial;
 }
 
-
-@media ( min-width: 600px) {
+@media only screen and (min-width:768px) {
+     * {
+          margin: 0px;
+          padding: 0px;
+     }
      body {
-          overflow-x: hidden;
-          width: 100vw;
+          margin: 0px;
+          padding: 0px;
+          width: 95%;         
+          height: 720px; 
      }
-     .leyout .paiheader {
-          box-sizing: calc(80vw);
-          width: 100vw;
+     .leyout,header {        
+          width: 100%;
+          margin: auto;
      }
+     .paiheader {
+          width: 100%;
+          margin: auto;
+     }    
+     section {
+          width: 100%;
+          height: 620px;
+     }
+     .formtitulo {
+          display: none;
+          
+     }
+     .formtitulo > p {
+          width: 174px;
+          height: 20px;
+          margin: 20px;
+          position: absolute;
+          font-weight: 700;
+          font-size: 18px;
+     }
+     form {
+          position: relative;
+          margin: auto;
+          width: 100%;
+          padding: 10px;
+     }
+    .responsive .secdiv1 {
+          margin: auto;
+          width: 100%;
+    }
+
+
+     section {
+          width: 100vw;
+          
+     }
+     .formtitulo {
+          display: flex;
+          justify-content: center;
+     
+     }
+     form {
+          position: relative;
+          width: 100%;
+          padding: 10px;
+          height: 160px;
+     }
+    .responsive {
+          
+          height: 110px;
+          padding: 5px;
+ 
+          width: 100%;
+          display: flex;
+          justify-content: space-around;
+    }
+    .secdiv1#ab {
+         width: 150px;
+         margin: 20px;
+    }
+    .button {
+     width: 100%;
+     position: sticky;
+     width: 200px;
+     height: 32px;
+     font-size: 14px;
+     line-height: 22px;    
+     display: block;
+     margin-left: 20px;
+     
+    }
+    button {
+     font-size: 14px;
+     line-height: 22px; 
+     width:200px;
 }
