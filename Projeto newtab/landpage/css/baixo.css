@@ -52,7 +52,6 @@ main {
      left: 296px;
 }
 .maindiv-b > p {
-     position: absolute;
      width: 33px;
      height: 22px;
      left: 296px;
@@ -95,14 +94,13 @@ main {
      color: #000000;
 }
 .div-2-div-c {
+     position: relative;
      width: 98px;
      height: 41.83px;
      top: 7px;
      left: 263px;
-     display: contents;
 }
 .div-2-div-c > p {
-     position: absolute;
      width: 98px;
      left: 263px;
      height: 41.83px;
@@ -243,6 +241,11 @@ main {
      text-align: right;
      color: #000000;
 }
+.saudo-lucro {
+     position: relative;
+     width: 98px;
+     top: -40px;
+}
 footer {
      background-color: #333333;
      width: 411px;
@@ -253,14 +256,45 @@ footer {
      main {
           width: 100vw;
      }
-     .maindiv-a {
+     .maindiv {
+          display: flex;
+          flex-direction: column;
+          margin: 10px;
+     }
+     .maindiv2 {
+          width: 100%;
+          justify-content: space-between;
           
      }
-     .maindiv-b {
-          
+     .div-2-div-c {
+          position: initial;
+          left: -20px;
      }
+     .div-meio {
+          width: 100%;
+          position: relative;
+          margin-left: 20px;
+     }
+     .div-2-div-d {
+          width: 100%;
+          position: absolute;
+          margin-left: 20px;
+     }
+     
      .maindiv1 {
           width: 100%;
+     }
+     .div-pai-fim {
+          width: 100%;
+          position: relative;
+
+     }
+     .saudo-lucro {
+          
+     }
+
+     footer {
+          width: 768px;
      }
 }
 
