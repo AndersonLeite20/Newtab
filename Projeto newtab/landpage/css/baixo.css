@@ -6,12 +6,17 @@
 }
 main {
      background-color:white;
-
-     padding: 20px 20px 20px 20px;
 }
-.maindiv {
+.maindv {
+     width: 90%;
+     padding-top: 20px;
      margin: auto;
-     width: 100%;
+     border-top: 1px solid #979797;
+     margin: auto;
+}
+
+.maindiv {
+     
 }
 .mainp1 {
      width: 180px;
@@ -31,6 +36,7 @@ main {
      top: 22px;
      left: 0px;
      right: 0px;
+     margin: auto;
 }
 .maindiv-a {
      font-size: 14px;
@@ -73,6 +79,7 @@ main {
      border-bottom: 1px solid #979797;
      width: 371px;
      padding-bottom: 20px;
+     margin: auto;
 }
 .maindiv2 > p {
      display: flex;
@@ -157,6 +164,7 @@ main {
      border-bottom: 1px solid #979797;
      padding-top: 7px;
      margin-right: 20px;
+     margin: auto;
 }
 .div-2-div-e {
      width: 98px;
@@ -165,8 +173,7 @@ main {
      left: 26px;
      font-size: 14px;
      line-height: 22px;
-     text-align: right;
-     
+     text-align: right;   
 }
 .div-2-div-e > P {
      width: 98px;
@@ -212,11 +219,11 @@ main {
      line-height: 16px;
      font-weight: 700;
 }
-.saldo-lucro {
-     
+.saldo-lucro {  
      width: 98px;
      height: 36px;
      left: 263px;
+     margin-right: 20px;
 }
 .saldo {
      width: 98px;
@@ -250,6 +257,11 @@ footer {
 @media only screen and (min-width: 768px) {
      main {
           width: 100%;
+     }
+     .maindv {
+          width: 90%;
+          border-top: 3px solid #846767;
+          margin: auto;
      }
      .maindiv {
           display: flex;
@@ -291,6 +303,9 @@ footer {
           width: 100%;
           position: relative;
 
+     }
+     .saldo-lucro {
+          margin-right: 0px;
      }
      footer {
           width: 768px;
