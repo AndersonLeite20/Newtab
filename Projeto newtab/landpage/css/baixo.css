@@ -9,6 +9,10 @@ main {
 
      padding: 20px 20px 20px 20px;
 }
+.maindiv {
+     margin: auto;
+     width: 100%;
+}
 .mainp1 {
      width: 180px;
      height: 20px;
@@ -113,7 +117,6 @@ main {
      color: black;
 }
 .divp- {
-
      width: 9px;
      height: 25.35px;
      left: 10px;
@@ -153,6 +156,7 @@ main {
      top: 28px;
      border-bottom: 1px solid #979797;
      padding-top: 7px;
+     margin-right: 20px;
 }
 .div-2-div-e {
      width: 98px;
@@ -162,7 +166,7 @@ main {
      font-size: 14px;
      line-height: 22px;
      text-align: right;
-     padding-right: 4px;
+     
 }
 .div-2-div-e > P {
      width: 98px;
@@ -187,74 +191,65 @@ main {
      padding-top: 11px;
      margin-top: -13px;
 }
+.ultimo {    
+     display: flex;
+     justify-content: space-between;
+     margin-top: 40px;
+     margin-top: 40px;
+}
 .total {
-     width: 72px;
+     width: 74px;
      height: 18px;
-     top: 15px;
-     left: 30px;
-     font-weight: 700;
-     font-style: normal;
      font-size: 14px;
      line-height: 16px;
+     top: 151px;
+     left: 30px;
+     margin-left: 30px;
+}
+.total > p {
+     position: absolute;
+     font-size: 14px;
+     line-height: 16px;
+     font-weight: 700;
 }
 .saldo-lucro {
-     display: flex;
-     left: 263px;
-     flex-direction: column;
-     height: 37px;
+     
      width: 98px;
-     position: absolute;
+     height: 36px;
+     left: 263px;
 }
 .saldo {
      width: 98px;
      height: 18px;
-     top: 151px;
-     left: 263px;
 }
 .saldo > p {
-     font-weight: 700;
-     font-style: normal;
+     position: absolute;
+
+     margin-left: 22px;
      font-size: 14px;
      line-height: 22px;
-     text-align: right;
-     top: 151px;
 }
 .lucro {
-     width: 98px;
-     height: 18px;
-     
-     font-weight: 400;
-     font-size: 10px;
-     line-height: 22px;
-     text-align: right;
-}
-.lucro > p {
-     position: sticky;
-     width: 98px;
-     height: 18px;
-     left: 263px;
-     top: 169px;
-     font-style: normal;
-     font-weight: 400;
-     font-size: 10px;
-     line-height: 22px;
-     text-align: right;
-     color: #000000;
-}
-.saudo-lucro {
      position: relative;
      width: 98px;
-     top: -40px;
+     height: 18px;
+}
+.lucro > p {
+     position: absolute;
+     font-size: 10px;
+     line-height: 22px;
+     margin-left: 67px;
 }
 footer {
      background-color: #333333;
      width: 411px;
      height: 8px;
      top: 723px;
+     margin: auto;
 }
 @media only screen and (min-width: 768px) {
      main {
-          width: 100vw;
+          width: 100%;
      }
      .maindiv {
           display: flex;
@@ -273,12 +268,20 @@ footer {
      .div-meio {
           width: 100%;
           position: relative;
-          margin-left: 20px;
+          
+     }
+     .ultimo {
+          display: flex;
+          justify-content: space-between;
+          position: relative;
      }
      .div-2-div-d {
           width: 100%;
           position: absolute;
           margin-left: 20px;
+     }
+     .div-2div-e {
+          margin-right: 20px;
      }
      
      .maindiv1 {
@@ -289,10 +292,6 @@ footer {
           position: relative;
 
      }
-     .saudo-lucro {
-          
-     }
-
      footer {
           width: 768px;
      }

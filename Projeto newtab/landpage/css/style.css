@@ -51,12 +51,19 @@ header {
      height: 43px;
      margin-bottom: 8px;
 }
-.paiheader > img {
+.paiheader > {
+
+}
+.img {
      width: 30px;
      height: 27.62px;
      position: absolute;
      left: 22px;
      top: 11px;
+}
+.img #g {
+     width: 30px;
+     height: 27.62px
 }
 .chec {
      display: none;
@@ -155,8 +162,8 @@ ul {
 }
 section {
      width: 411px;
-     height: 723px;
      margin: auto;    
+     margin-top: -20px;
 }
 .formtitulo {
      display: none;
@@ -258,7 +265,7 @@ button {
      }    
      section {
           width: 100%;
-          height: 620px;
+          margin-top: 0px;
      }
      .formtitulo {
           display: none;
@@ -275,18 +282,14 @@ button {
      form {
           position: relative;
           margin: auto;
-          width: 100%;
-          padding: 10px;
+          width: 102.5%;
      }
     .responsive .secdiv1 {
           margin: auto;
           width: 100%;
     }
-
-
      section {
-          width: 100vw;
-          
+          width: 100%;       
      }
      .formtitulo {
           display: flex;
