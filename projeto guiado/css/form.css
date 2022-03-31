@@ -1,0 +1,7 @@
+@charset "utf-8";
+.formulario div {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}

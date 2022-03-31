@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+body {
+     
+     margin: 0px;
+}
+.cabecalho {
+     background: linear-gradient(270deg, rgb(21, 3, 100), transparent);
+     padding: 20px;
+}
+.menu {
+     display: flex;
+     justify-content: center;
+     margin-top: 10px;
+}
+.menu > a {
+     
+     text-decoration: none;
+     font-weight: bold;
+     color: blue;
+     margin-right: 15px;
+     font-family: Arial, Helvetica, sans-serif;
+     margin-top: 3px;
+     margin-bottom: 8px;
+     border: 1px solid blue;
+     padding: 5px;
+}
+.list {
+    width: 100%;
+    border: 0px;
+    border-spacing: 0;
+    padding: 5px;
+}
+tr.a {
+    background-color: black;
+    color: white;
+    height: 20px;
+    font: bold;
+    padding: 5px;
+
+}
+td {
+     padding: 5px;
+}

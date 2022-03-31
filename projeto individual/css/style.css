@@ -15,6 +15,7 @@ header {
      position: relative;
      width: 411px;
      height: 75px;
+     top: 24px;
      margin: auto;
 }
 .leyout {
@@ -51,36 +52,15 @@ header {
      height: 43px;
      margin-bottom: 8px;
 }
-.img {
+.paiheader > img {
      width: 30px;
      height: 27.62px;
      position: absolute;
      left: 22px;
-     top: 11px;
+     top: 6px;
 }
-.img #g {
-     width: 30px;
-     height: 27.62px
-}
-.check {
-     cursor: default;
-     appearance: auto;
-     border: indianred;
+.chec {
      display: none;
-}
-.checkb {
-     margin-right: 20px;
-     width: 20px;
-     cursor: pointer;
-     line-height: 80px;
-     height: 50px;
-     position: fixed;
-     float: right;
-}
-.l1 {
-     text-decoration: none;
-     list-style: none;
-     box-sizing: border-box;
 }
 .titulo {
      margin: auto;
@@ -174,18 +154,22 @@ ul {
      display: block;
      background-color: white;
 }
+
+
+
+
+
 section {
      width: 411px;
-     margin: auto;    
-     margin-top: -20px;
-}
-.formtitulo {
-     display: none;
+     height: 723px;
+     margin: auto;
+     
 }
 form {
      background-color: white;
      width: 411px;
      height: 325px;
+     border-bottom: 1px solid #979797;
 }
 .tiptrans {
      width: 371px;
@@ -238,6 +222,7 @@ form {
      line-height: 22px;
      color: #888888;
 }
+
 .button {
      display: flex;
      justify-content: center;
@@ -257,84 +242,14 @@ button {
      font-style: initial;
 }
 
-@media only screen and (min-width:768px) {
-     * {
-          margin: 0px;
-          padding: 0px;
+
+@media ( min-width: 600px) {
+     body {
+          overflow-x: hidden;
+          width: 100vw;
      }
-     .leyout,header {        
-          width: 100%;
-          margin: auto;
+     .leyout .paiheader {
+          box-sizing: calc(80vw);
+          width: 100vw;
      }
-     .paiheader {
-          width: 100%;
-          margin: auto;
-     }    
-     section {
-          width: 100%;
-          margin-top: 0px;
-     }
-     .formtitulo {
-          display: none;         
-     }
-     .formtitulo > p {
-          width: 174px;
-          height: 20px;
-          margin: 20px;
-          position: absolute;
-          font-weight: 700;
-          font-size: 18px;
-     }
-     form {
-          position: relative;
-          margin: auto;
-          width: 97%;
-          padding: 0px;
-     }
-    .responsive .secdiv1 {
-          margin: auto;
-          width: 100%;
-    }
-     section {
-          width: 100%;       
-     }
-     .formtitulo {
-          display: flex;
-          justify-content: center;
-     
-     }
-     form {
-          position: relative;
-          width: 100%;
-          padding: 10px;
-          height: 160px;
-     }
-    .responsive {
-          
-          height: 110px;
-          padding: 5px;
- 
-          width: 100%;
-          display: flex;
-          justify-content: space-around;
-    }
-    .secdiv1#ab {
-         width: 150px;
-         margin: 20px;
-    }
-    .button {
-     width: 100%;
-     position: sticky;
-     width: 200px;
-     height: 32px;
-     font-size: 14px;
-     line-height: 22px;    
-     display: block;
-     margin-left: 20px;
-     
-    }
-    button {
-     font-size: 14px;
-     line-height: 22px; 
-     width:200px;
 }
