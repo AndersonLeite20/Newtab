@@ -105,7 +105,6 @@ form {
      margin-left: 10px;
      margin-right: 10px;
 }
-
 .div-pai-b {
      display: flex;
      justify-content: center;
@@ -121,7 +120,6 @@ form {
      border-bottom: 1px solid #E0E0E0;
      height: 35px;
 }
-
 .div-mercadoria {
      width: 72px;
      height: 35px;
@@ -135,16 +133,14 @@ form {
 }
 .div-valor {
      width: 72px;
-     height: 35px;
-     
+     height: 35px;     
 }
 .div-valor > h3 {
      display: flex;
      width: 71px;
      font-size: 14px;
      line-height: 22px;
-     justify-content: right;
-     
+     justify-content: right;     
 }
 .div-bloco-6 {
      display: flex;
@@ -181,8 +177,7 @@ form {
      justify-content: space-between;
      font-size: 14px;
      line-height: 22px;
-     border-bottom: 1px solid #E0E0E0;
-     
+     border-bottom: 1px solid #E0E0E0;     
 }
 .div-bloco-8a {
      display: flex;
