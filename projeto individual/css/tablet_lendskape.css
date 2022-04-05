@@ -1,0 +1,45 @@
+@charset "utf-8";
+@media (min-width: 412px) and (max-width: 768px) {
+
+     .menu {
+          width: 100%;
+     }
+     .hanburguer {
+          display: block;
+     }
+     .menu {
+          display: none;
+     }
+     form {
+          display: flex;
+          flex-direction: column;
+     }
+     .div-pai-1 {
+          width: 100%;
+     }
+     .div-pai-2 {
+          width: 100%;
+     }
+     .div-bloco-a {
+          display: flex;
+          justify-content: space-evenly;
+     }
+     .div-bloco-1 {
+          width: 25%;
+     }
+     .div-bloco-2 {
+          width: 40%;
+     }
+     .div-bloco-3 {
+          width: 25%;
+     }
+     .div-bloco-4 {
+          width: 35%;
+          position: relative;
+          bottom: 20px;
+          left: 20px;
+     }
+     .div-filho-2 {
+          padding: 20px;
+     }
+}

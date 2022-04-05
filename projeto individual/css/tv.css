@@ -1,0 +1,6 @@
+@charset "utf-8";
+@media (min-whidth:1113px) and (max-whidth:1500px) {
+     form {
+       padding: 40px;   
+     } 
+}

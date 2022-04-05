@@ -1,0 +1,228 @@
+@charset "utf-8";
+form {
+     display: flex;
+}
+.div-pai-1 {
+     width: 40%;
+     display: block;
+}
+.div-filho-1 {
+     width: 100%;
+     display: flex;
+      width: 100%;
+     margin-left: 20px;
+     margin-right: 10px;
+}
+.div-bloco {
+     display: flex;
+     justify-content: center;
+     width: 100%;
+}
+.div-bloco-pai {
+     display: block;
+     margin-left: 10px;
+     margin-right:10px;
+     border: 1px solid #E0E0E0;
+     margin-top: 21px;
+}
+.div-bloco-pai > h4 {
+     display: flex;
+     justify-content: center;
+}
+.div-bloco-a {
+     display: block;
+     padding: 20px;
+}
+.div-bloco-1 {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+}
+.div-bloco-1 > label {
+     height: 22.22px;
+     font-size: 14px;
+     line-height: 22px;
+}
+.div-bloco-1 > select {
+     height: 32px;
+     border-radius: 4px;
+     font-size: 14px;
+     border: 1px solid #E0E0E0;
+}
+.div-bloco-2 {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-top: 20px;
+}
+.div-bloco-2 > label {
+     font-size: 14px;
+     line-height: 22px;
+}
+.div-bloco-2 > input {
+     height: 32px;
+     border-radius: 4px;
+     border: 1px solid #E0E0E0;
+     font-size: 14px;
+     line-height: 22px;
+}
+.div-bloco-3 {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     margin-top: 20px;
+}
+.div-bloco-3 > label {
+     height: 21.57px;
+     line-height: 22px;
+     font-size: 14px;
+}
+.div-bloco-3 > input {
+     height: 32px;
+     border-radius: 4px;
+     border: 1px solid #E0E0E0;
+     font-size: 14px;
+     line-height: 22px;
+}
+.div-bloco-4 {
+     display: flex;
+     justify-content: center;
+}
+.div-bloco-4 > button {
+     width: 100%;
+     height: 32px;
+     background-color: black;
+     color: white;
+     font-size: 14px;
+     line-height: 22px;
+     border-radius: 4px;
+     margin-top: 20px;
+}
+
+.div-pai-2 {
+     display: block;
+     width: 60%;
+     margin-left: 10px;
+     margin-right: 10px;
+}
+
+.div-pai-b {
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     margin-top: 21px;
+}
+.div-pai-b > h4 {
+     font-weight: 20px;
+}
+.div-bloco-5 {
+     display: flex;
+     justify-content: space-between;
+     border-bottom: 1px solid #E0E0E0;
+     height: 35px;
+}
+
+.div-mercadoria {
+     width: 72px;
+     height: 35px;
+     padding-left: 20px;
+}
+.div-mercadoria > h3 {
+     display: flex;
+     width: 71px;
+     font-size: 14px;
+     line-height: 22px;
+}
+.div-valor {
+     width: 72px;
+     height: 35px;
+     
+}
+.div-valor > h3 {
+     display: flex;
+     width: 71px;
+     font-size: 14px;
+     line-height: 22px;
+     justify-content: right;
+     
+}
+.div-bloco-6 {
+     display: flex;
+     justify-content: space-between;
+     font-size: 14px;
+     line-height: 22px;
+     border-bottom: 1px solid #E0E0E0;
+}
+.div-block-6a {
+     display: flex;
+     font-size: 14px;
+     line-height: 22px;
+}
+.div-block-6a #a > p {
+     padding-left: 10px;
+}
+.div-block-7 {
+     display: flex;
+     justify-content: space-between;
+     font-size: 14px;
+     line-height: 22px;
+     border-bottom: 1px solid #E0E0E0;
+}
+.div-block-7a {
+     display: flex;
+     font-size: 14px;
+     line-height: 22px;
+}
+.div-block-7a #a {
+     padding-left: 10px;
+}
+.div-bloco-8 {
+     display: flex;
+     justify-content: space-between;
+     font-size: 14px;
+     line-height: 22px;
+     border-bottom: 1px solid #E0E0E0;
+     
+}
+.div-bloco-8a {
+     display: flex;
+}
+.div-bloco-8a #a {
+     padding-left: 10px;
+}
+.div-bloco-9 {
+     display: flex;
+     justify-content: space-between;
+     font-size: 14px;
+     line-height: 22px;
+     margin-top: 2px;
+     border-top: 1px solid #E0E0E0;
+}
+.bloco-9b {    
+    display: flex;
+    flex-direction: column;
+    height: 65px;
+}
+.bloco-9c {
+     height: 33px;
+}
+.bloco-9d {
+     display: flex;
+     height: 20px;
+     font-size: 10px;
+     flex-direction: row-reverse;
+     display: flex;
+     font-size: 10px;
+     flex-direction: row-reverse;
+}
+.bloco-9d > p {
+     font-size: 10px;
+     display: flex;
+     flex-direction: row-reverse;
+}
+footer {
+     width: 100%;
+     height: 8px;
+     background-color: black;
+     margin-top: 30px;
+}

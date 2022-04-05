@@ -4,120 +4,156 @@
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>land page</title>
-     <link rel="shortcut icon" href="image/favicom.PNG" type="image/x-icon">
-     <link rel="stylesheet" href="css/style.css">
-     <link rel="stylesheet" href="css/baixo.css">
-     
+     <title>projeto individual spa</title>
+     <link rel="stylesheet" href="css/header.css">
+     <link rel="stylesheet" href="css/main.css">
+     <link rel="stylesheet" href="css/smartphone.css">
+     <link rel="stylesheet" href="css/tablet_lendskape.css">
+     <link rel="stylesheet" href="css/tv.css">    
+     <link rel="stylesheet" href="css/desktop.css">
 </head>
 <body>
 <header>
-     <div class="leyout">
-          <div><p></p></div>
-          <div><p class="hora">9:42AM</p></div>
-          <div></div>
-     </div>
-     <div class="paiheader">
-               <img src="image/favicom.PNG" alt="">
-               <p class="titulo">Comtrole financeiro</p>
-          <div>
-               <input type="checkbox" id="chec">
-                    <label for="chec"><div class="line2"></div></label>
-               <nav>                   
-                    <div class="line1"></div>
-                    <div class="line2"></div>     
-                    <a class="logo" href="projeto"></a>
-                    <div class="mobile-menu">
-                         <div class="menudiv">
-                              <div class="line1"></div>
-                              <div class="line2"></div>
-                         </div>
-                    </div>
-                    <ul class="navlist">
-                         <li><a href="#"></a></li>
-                         <li><a href="#"></a></li>
-                         <li><a href="#"></a></li>
-                    </ul>
-               </nav>
+     <nav>     
+          <div class="img-logo">
+               <img src="image/logo.PNG" alt="logo">
           </div>
-     </div>
+          <div class="nav-title"></div>
+          <h4 class="comt-finan">Comtrole financeiro</h4>
+          <div class="hanburguer">
+               <a onclick="openside()"><img src="image/hamburguer.svg" alt=""></a>
+          </div>
+          <a onclick="openside()"></a>
+          <div class="menu">
+               <a onclick="openside()"></a>
+               <ul class="menu-content">
+                    <a onclick="openside()"></a>
+                    <div class="div_close">
+                         <a onclick="openside()"></a>
+                         <a onclick="openside()"><img src="image/fecharMenu.svg" alt=""></a>
+                    </div>
+                    <li class="list-1">
+                         <a href="#" onclick="focusselect()">cadastro de transaçâo</a>
+                    </li>
+                    <li class="div-i">|</li>
+                    <li class="list-2">
+                         <a href="#" id="delet" onclick="reovertable()">Limpar dados </a>
+                    </li>
+               </ul>
+          </div>           
+     </nav>
 </header>
-<section>
-     <form>
-          <div class=secdiv1>
-               <label class="label1" for="text">Tipo de transação</label>
-               <input class="input1" type="text" placeholder=compra>
-          </div>
-          <div class=secdiv1>
-               <label class="label1" for="text">Nome da mercadoria</label>
-               <input class="input1" type="text" placeholder=input>
-          </div>
-          <div class=secdiv1>
-               <label class="label1" for="text">Valor</label>
-               <input class="input1" type="number" placeholder="R$ 0,00">
-          </div>
-          <div class="button">
-               <button>Adicionar transação</button>
-          </div>
-     </form>         
-     <main>              
-          <p class="mainp1">Extrto de transações</p>
-               <div class="maindiv1">
-                    <div class="maindiv-a">
-                         <p>Mercadoria</p>
+     <main>
+          <form action="">
+               <div class="div-pai-1">
+                    
+                    <div class="div-bloco-pai"> 
+                             <h4>Nova transção</h4> 
+                         <div class="div-bloco-a">
+     
+                              <div class="div-bloco-1">
+                                   <label>Transaçâo</label>
+                                   <select name="required" id="inpt-select">
+                                        <option value="compra">compra</option>
+                                        <option value="venda">venda</option>
+                                   </select>
+                              </div>
+                              <div class="div-bloco-2">
+                                   <label>Nome da mercadoria</label>
+                                   <input type="text" id="input-nome" placeholder="Nome">
+                              </div>
+                              <div class="div-bloco-3">
+                                   <label>Valor</label>
+                                   <input type="text" placeholder="0,00">
+                              </div>
+                         </div>     
+                         <div class="div-bloco-4">
+                              <button>Adicionar transção</button>
+                         </div>
+     
+                             
+                    </div>                    
+               </div>
+               <div class="div-pai-2">
+                    <div class="div-pai-b">
+                         <h4>Extrato de transação</h4>
                     </div>
-                    <div class="maindiv-b">
-                         <p>Valor</p>
-                    </div>
-               </div>     
-               <div class="maindiv2">
-                    <div>
-                         <p>+</p>
-                    </div>
-                    <div class="div-2-div-b">
-                         <p>Lorem ipsum dolor sit amet <br> consectetur</p>
-                    </div>
-                    <div class="div-2-div-c">
-                         <p>R$ 12.999,99</p>
+
+                    <div class="div-filho-2">
+                         
+                         <div class="div-bloco-5">
+                              <div class="div-mercadoria">
+                                   <h3><strong>Mercadoria</strong></h3>
+                              </div>
+                              <div class="div-valor">
+                                   <h3><strong>Valor</strong></h3>
+                              </div>
+                         </div>
+                         <div class="div-bloco-6">
+
+                              <div class="div-block-6a">
+                                   <div >
+                                        <p >+</p>
+                                   </div>
+                                   <div id="a">
+                                        <p>Lorem ipsum, dolor sit amet consectetur </p>
+                                   </div>
+                              </div>
+                              <div>
+                                   <p>R$ 12.999,99</p>
+                              </div>
+                         </div>
+                         <div class="div-block-7">
+                              <div class="div-block-7a">
+                                   <div >
+                                        <p>-</p>
+                                   </div>
+                                   <div id="a">
+                                        <p>Quis nostrud exercitation</p>
+                                   </div>
+                              </div>
+
+                              <div>
+                                   <p>R$ 99.99</p>
+                              </div>
+                         </div>
+
+                         <div class="div-bloco-8">
+                              <div class="div-bloco-8a">
+                                   <div >
+                                        <p>+</p>
+                                   </div>
+                                   <div id="a">
+                                        <p>Loren ipsun</p>
+                                   </div>
+                              </div>
+                              <div>
+                                   <p>R$ 9,99</p>
+                              </div>
+                         </div>
+
+                         <div class="div-bloco-9">
+                              <div class="bloco-9a">
+                                   <h3><strong>Total</strong></h3>
+                              </div>
+                              <div class="bloco-9b">
+                                   <div class="bloco-9c">
+                                        <h3>
+                                             <strong>R$ 12.909,99</strong>
+                                        </h3>
+                                        
+                                   </div>
+                                   <div class="div-9d">
+                                        <p>LUCRO</p>
+                                   </div>
+                                   
+                              </div>
+                         </div>             
+                                      
                     </div>
                </div>
-               <div class="div-meio">
-                    <div class="divp-">
-                         <p>+</p>
-                    </div>
-                    <div class="div-2-div-d">
-                         <p>Quis nostrud exercitation</p>
-                    </div>
-                    <div class="div-2-div-e">
-                         <p>R$ 99,99</p>
-                    </div>
-              </div>
-              <div class="div-meio">
-                    <div class="divp-">
-                         <p>+</p>
-                    </div>
-                    <div class="div-2-div-d">
-                         <p>Lorin ipsun</p>
-                    </div>
-                    <div class="div-2-div-e">
-                         <p>R$ 9,99</p>
-                    </div>
-               </div>
-          <div class="div-pai-fim">
-               <div class="total">
-                    <p>Total</p>
-               </div>
-               <div class="saldo-lucro">
-                    <div class="saldo">
-                         <p>R$ 12.909,99</p>
-                    </div>
-                    <div class="lucro">
-                         <p>[Lucro]</p>
-                    </div>
-               </div>
-          </div>                  
-     </main>      
-<footer></footer>                                
-</section>     
+          </form>
+     </main>
+<footer></footer>
 </body>
 </html>
