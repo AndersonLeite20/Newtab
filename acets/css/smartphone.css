@@ -3,29 +3,17 @@
      .nav-title { 
           width:70%
          }
-        .Open {
-          transform: translateX(-351px);
-        }
-        .menu-content {
-          overflow-x: hidden;
-          width: 351px;
-          transform: translateX(0px);
-        }      
-        .transaction {
-          border: none;
+        ul {
+          display: none;
+        }   
+        .menu {
+          margin-right: 20px;
         }      
         .title-transaction {
           display: none;
         }      
-        .field {
-          display: flex;
-          flex-direction: column;
-        }      
-        .div-select,
-        .div-name,        
-        .button-add {
-          width: 100%;
-          padding: 0px;
+        .checkbtn {
+          display: contents;
         }
         .button-add {
           margin-bottom: 27px;
@@ -33,9 +21,7 @@
         .extract {
           border-top: solid #979797 1px;
         }
-        .menu {
-          display: none;
-        }
+        
         form {
           flex-direction: column;
         }

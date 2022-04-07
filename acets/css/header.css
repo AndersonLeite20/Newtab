@@ -1,8 +1,16 @@
 @charset "utf-8";
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
 body {
      box-sizing: border-box;
      margin: 0px;
      padding: 0px; 
+     text-decoration: none;
 }
 nav {
      display: flex;
@@ -23,98 +31,40 @@ nav {
 .comt-finan {
      display: contents;
 }
-.hanburguer {
-     display: none;
-     text-align: right;
-     cursor: pointer;
-     margin-right: 20px;
-     z-index: 1;
-     width: 18px;
-     aspect-ratio: auto 18 / 12;
-     height: 12px;
+#check {
+    display: none;
 }
-.menu-content {
-     padding: 0 20px;
-     display: nome;
-     justify-content: center;
-     align-items: center;
-     width: max-content;
-     margin-right: 10px;
-}
-.menu {
-     padding: 0.2px;
-     display: flex;
-     margin-right: 10px;
-     align-items: center;
-     justify-content: center;
+.checkbtn {
+    display: none;
 }
 ul {
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    list-style: none;
-    height: 40px;
-    border-radius: 2px;
+    background-color: white;
+    float: right;
+    margin: 10px;
 }
-.div-li{
-     color: #979797;
-     width: 20px;
-     display:flex; 
-     justify-content: center;
- }
-li {
-     padding: 0;
-     display: inline-block;
- }
- a {
-     text-decoration: none;
-     color: #333333;
-     font-weight: 600;
- }
- a:hover{
-     color: red;
-     z-index: 1;
- }
- a:active{
-     color: blue;
- }
- ul {
-     position: fixed;
-     display: block;
-     padding: 0px;
-     padding-top: 15px;
-     margin: 0px;
-     top: 0;
-     height: 100%;
-     overflow-x: hidden;
-     background: #333333;
-     text-align: end;
-     width: 256px;
-     transform: translateX(0px);
-     z-index: 3;
- }
- .div_close {
-     position: absolute;
-     display: block;
- }
- .list-1 {
-     width: 100%;
-     justify-content: right;
-     align-items: center;
- }
- .div-li {
-     justify-content: right;
-     align-items: center;
- }
- .list-1 > a {
-     color: wheat;
- }
- .list-2 {
-     display: flex;
-     width: 100%;
-     justify-content: right;
-     align-items: center;
- }
- .list-2 > a {
-     color: wheat;
- }
+nav > ul > li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0px 20px 0px 20px;
+}
+nav > ul > li > a {
+    text-transform: uppercase;
+}
+a:active, a:hover {
+    background-color: rgb(30, 49, 43);
+    transition: .5s;
+}
+.menu {
+    background-color: #E0E0E0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+span {
+    background-color: black;
+    width: 30px;
+    height: 3px;
+    margin: 2px 0px 2px 0px;
+}

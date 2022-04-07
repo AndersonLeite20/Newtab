@@ -1,18 +1,6 @@
 @charset "utf-8";
 @media (min-width: 412px) and (max-width:767px) {
-     .menu-content {
-          position: fixed;
-          display: block;
-          padding: 0px;
-          padding-top: 15px;
-          margin: 0px;
-          top: 0;
-          height: 100%;
-          overflow-x: hidden;
-          background: #333333;
-          text-align: end;
-          width: 256px;
-          transform: translateX(0px);
-          z-index: 3;
+     ul {
+          display: none;
      }
 }

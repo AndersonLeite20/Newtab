@@ -1,12 +1,12 @@
 @charset "utf-8";
 @media (min-width: 412px) and (max-width: 768px) {
-     .menu {
-          width: 100%;
-     }
-     .hanburguer {
-          display: block;
+     .checkbtn {
+          display: contents;
      }
      .menu {
+          margin-right: 20px;
+     }
+     .lista {
           display: none;
      }
      form {
