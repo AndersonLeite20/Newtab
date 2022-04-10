@@ -1,5 +1,8 @@
 @charset "utf-8";
 @media (min-width:769px) and (max-width:1112px) {
+     body {
+          font: lato;
+     }
      .lista {
           display: inline-block;
           font-size: 20px;
