@@ -7,72 +7,71 @@
      <title>projeto individual spa</title>
      <link rel="shortcut icon" href="acets/img/logo.png" type="image/x-icon">
      <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="acets/css/header.css">     
-     <link rel="stylesheet" href="acets/css/form.css">
-     <link rel="stylesheet" href="acets/css/table.css">
-     <link rel="stylesheet" href="acets/css/tablet_lendskape.css">
-     <link rel="stylesheet" href="acets/css/desktop.css">
-     <link rel="stylesheet" href="acets/css/tv.css">
-     <link rel="stylesheet" href="acets/css/smartphone.css">        
+     <link rel="stylesheet" href="assets/css/smartphone.css">
+    <!-- <link rel="stylesheet" href="assets/css/tablet_lendskape.css">
+     <link rel="stylesheet" href="assets/csstablet_portatil.css">
+     <link rel="stylesheet" href="assets/css/desktop.css">-->        
 </head>
 <body>
 <header>
-     <nav>   
-          <div class="img-logo">
-               <img src="acets/img/logo.png" alt="logo">
-               
-          </div>
-          <div class="nav-title">
-               <h4 class="comt-finan">Comtrole financeiro</h4>
-          </div>
-
-          <input type="checkbox" id="check">
-          <label for="check" class="checkbtn">
-               <div class="menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-               </div>
-          </label>
-          <div class="lista">
-               <ul>
-                    <div>
-                         <li><a href="#">cadastro de transaçôes</a></li>
-                    </div>
-                    <div>
-                         <li><a href="#">limpar dados</a></li>
-                    </div>
-               </ul>
-          </div>
-     </nav>         
-</header>
-     <main>
-          <form action="">
-               <div class="div-pai-1">                    
-                    <div class="div-bloco-pai"> 
-                             <h4>Nova transção</h4> 
-                         <div class="div-bloco-a">
-                              <div class="div-bloco-1">
-                                   <label>Transaçâo</label>
-                                   <select name="required" id="inpt-select">
-                                        <option value="compra">compra</option>
-                                        <option value="venda">venda</option>
-                                   </select>
-                              </div>
-                              <div class="div-bloco-2">
-                                   <label>Nome da mercadoria</label>
-                                   <input type="text" id="input-nome" placeholder="Nome">
-                              </div>
-                              <div class="div-bloco-3">
-                                   <label>Valor</label>
-                                   <input type="text" placeholder="0,00">
-                              </div>
-                         </div>     
-                         <div class="div-bloco-4">
-                              <button>Adicionar transção</button>
+     <nav>  
+          <div class="div_nav"> 
+               <div class="img_logo">
+                    <img id="logo" src="assets/img/logo.png" alt="logo">
+               </div>        
+               <div class="nav_titulo">
+                    <h4 class="comt-finan">Comtrole financeiro</h4>
+               </div>   
+               <div class="menu_conteiner">
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                         <div class="menu">
+                              <span></span>
+                              <span></span>
+                              <span></span>
                          </div>
-                    </div> 
-               </div>                          
+                    </label>
+                    <div class="lista">
+                         <ul>
+                              <li><a href="#">cadastro de transaçôes</a></li>
+                              <li><a href="#">limpar dados</a></li>
+                         </ul>
+                    </div>
+               </div>         
+          </div>               
+     </nav>                
+</header>                    
+<main>     
+     <form>
+          <div class="conteiner_a">                    
+               <div class="sub_conteiner"> 
+                         <h4 id="nov_transaçao">Nova transção</h4> 
+                    <div class="sub_conteiner_fim">
+                         <div class="div_bloco_a">
+                              <label>Transaçâo</label>
+                              <select name="required" id="inpt-select">
+                                   <option value="compra">compra</option>
+                                   <option value="venda">venda</option>
+                              </select>
+                         </div>
+                         <div class="div_bloco_b">
+                              <label>Nome da mercadoria</label>
+                              <input type="text" id="input-nome" placeholder="Nome">
+                         </div>
+                         <div class="div_bloco_c">
+                              <label>Valor</label>
+                              <input type="text" placeholder="0,00">
+                         </div>
+                    </div>     
+                    <div class="div_bloco_d">
+                         <button>Adicionar transção</button>
+                    </div>
+                    <div id="linha"></div>                        
+               </div>
+          </div> 
+     </form>     
+      <!----
+          </div>                          
                <div class="div-pai-2">
                     <div class="div-pai-b">
                          <h4>Extrato de transação</h4>
@@ -88,7 +87,7 @@
                               </div>
                          </div>
                          <div class="div-bloco-6">
-                              <div class="div-block-6a">
+                              <div class="div-bloco-6a">
                                    <div >
                                         <p >+</p>
                                    </div>
@@ -100,8 +99,8 @@
                                    <p>R$ 12.999,99</p>
                               </div>
                          </div>
-                         <div class="div-block-7">
-                              <div class="div-block-7a">
+                         <div class="div-bloco-7">
+                              <div class="div-bloco-7a">
                                    <div >
                                         <p>-</p>
                                    </div>
@@ -143,7 +142,7 @@
                          </div>          
                     </div>          
                </div>                       
-          </form>
+          
      </main>                                 
 <footer></footer>
 </body>

@@ -1,0 +1,132 @@
+@charset "utf-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header,nav  {
+  display: block;
+  width: 100%;
+  height:60px;
+}
+.div_nav {
+  background-color: #DADADA;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav_titulo {
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 24px;
+}
+.img_logo {
+  width: 30px;
+  height: 27.63px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+#logo {
+  width: 30px;
+  height: 27.63px;
+}
+.menu_conteiner {
+  margin-right: 20px;
+}
+#check {
+  display: none;
+}
+.menu {
+  width: 24px;
+  height: 24px;
+  background-color: #DADADA;
+  padding: 2px;
+  top: 20px;
+  margin-top: 10px;
+}
+span {
+  width: 18px;
+  height: 2px;
+  background-color: black;
+  margin-top: 4px;
+  display: block;
+}
+.lista {
+  display: none;
+}
+
+
+
+form {
+  display: block;
+  width: 98%;
+  margin: auto;
+}
+input,select {
+  border: 1px solid #dadadacf;
+}
+.conteiner_a {
+
+}
+#nov_transaçao {
+  display: none;
+}
+.container_a {
+  width: 97%;
+  margin: auto;
+  display: flex;
+}
+.sub_conteiner {
+  width: 97%;
+  margin-bottom: 20px;
+  
+}
+.sub_conteiner_fim {
+  margin: 20px 20px;
+  
+}
+.div_bloco_a {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.div_bloco_b {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.div_bloco_c {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.div_bloco_d {
+  display: flex;
+  height: 32px;
+  margin-bottom: 20px;
+}
+.div_bloco_d > button {
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0px 20px;
+}
+#linha {
+  width: 80%;
+  height: 1px;
+  background-color: black;
+  padding: 0px 20px;
+  margin: auto;
+}
+
+
+@media (max-width:411px) {
+      
+
+}
+
+
+

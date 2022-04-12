@@ -1,5 +1,5 @@
 @charset "utf-8";
-@media (min-width: 412px) and (max-width: 768px) {
+@media (max-width:768px) {
      .checkbtn {
           display: contents;
      }
