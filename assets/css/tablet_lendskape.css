@@ -1,44 +1,40 @@
 @charset "utf-8";
-@media (max-width:768px) {
-     .checkbtn {
-          display: contents;
-     }
-     .menu {
-          margin-right: 20px;
-     }
-     .lista {
-          display: none;
+@media (min-width:768px) {
+     main {
+          width: 96%;
+          display: flex;
      }
      form {
-          display: flex;
-          flex-direction: column;
-     }
-     .div-pai-1 {
-          width: 100%;
-     }
-     .div-pai-2 {
-          width: 100%;
-     }
-     .div-bloco-a {
-          display: flex;
-          justify-content: space-evenly;
-     }
-     .div-bloco-1 {
-          width: 25%;
-     }
-     .div-bloco-2 {
           width: 40%;
+          height: 344px;
+          margin-right: 10px;
      }
-     .div-bloco-3 {
-          width: 25%;
+     table {
+          margin-left: 10px;
+          width: 60%;
+          margin-top: 47px;
      }
-     .div-bloco-4 {
-          width: 35%;
-          position: relative;
-          bottom: 20px;
-          left: 20px;
+     .sub_conteiner_a {
+         height: 344px;
      }
-     .div-filho-2 {
-          padding: 20px;
+     .sub_conteiner_fim {
+          display: block;
+          padding-left: 14.9px;
+          padding-right: 14.9px;
+     }
+     .div_bloco_a {
+          width: 100%;
+     }
+     .div_bloco_b {
+          width: 100%;
+     }
+     .div_bloco_c {
+          width: 100%;
+     }
+     .div_bloco_d > button {
+          width: 100%;
+          padding-left: 14.9px;
+          padding-right: 14.9px;
+          margin-bottom: 20.22px;
      }
 }

@@ -8,9 +8,9 @@
      <link rel="shortcut icon" href="acets/img/logo.png" type="image/x-icon">
      <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="assets/css/smartphone.css">
-    <!-- <link rel="stylesheet" href="assets/css/tablet_lendskape.css">
-     <link rel="stylesheet" href="assets/csstablet_portatil.css">
-     <link rel="stylesheet" href="assets/css/desktop.css">-->        
+     <link rel="stylesheet" href="assets/css/tablet_portatil.css">
+     <link rel="stylesheet" href="assets/css/tablet_lendskape.css">
+     <link rel="stylesheet" href="assets/css/desktop.css">      
 </head>
 <body>
 <header>
@@ -45,7 +45,9 @@
      <form>
           <div class="conteiner_a">                    
                <div class="sub_conteiner"> 
-                         <h4 id="nov_transaçao">Nova transção</h4> 
+                         <div id="nova_transacao">
+                              <h4 >Nova transção</h4>
+                         </div> 
                     <div class="sub_conteiner_fim">
                          <div class="div_bloco_a">
                               <label>Transaçâo</label>
@@ -65,40 +67,38 @@
                     </div>     
                     <div class="div_bloco_d">
                          <button>Adicionar transção</button>
-                    </div>
-                    <div id="linha"></div>                        
+                    </div>                       
                </div>
           </div> 
      </form>     
      <table>
           <caption>Extrato de transaçôes</caption>
-               <tr> 
-                    <th class="mercadoria" colspan="2">Mercadoria</th>
-                    <th class="valor" colspan="1">Valor</th>
-               </tr>
-               
-               <tr >
-                    <td class="mais">+</td>
-                    <td class="descricao">Lorem ipsum dolor sit amet consectetur</td>
-                    <td class="soma">R$ 12.999,99</td>
-               </tr>
-               <tr >
-                    <td class="menos">-</td>
-                    <td class="descricao">Quis nostrud exercitation</td>
-                    <td class="soma">R$ 99.99</td>
-               </tr>
-               <tr >
-                    <td class="mais">+</td>
-                    <td class="descricao">Lorem ipsun</td>
-                    <td class="soma">R$ 9,99</td>
-               </tr>
-               <tr>
-                    <td class="total" colspan="2">Total</td>
-                    <td class="valor"colspan="1">R$ 12.909,99</td>
-               </tr>
-               <tr>    
-                    <td class="lucro" colspan="3">[LUCRO]</td>
-               </tr> 
+          <tr> 
+               <th class="mercadoria" colspan="2">Mercadoria</th>
+               <th class="valor" colspan="1">Valor</th>
+          </tr>               
+          <tr >
+               <td class="mais">+</td>
+               <td class="descricao">Lorem ipsum dolor sit amet consectetur</td>
+               <td class="soma">R$ 12.999,99</td>
+          </tr>
+          <tr >
+               <td class="menos">-</td>
+               <td class="descricao">Quis nostrud exercitation</td>
+               <td class="soma">R$ 99.99</td>
+          </tr>
+          <tr >
+               <td class="mais">+</td>
+               <td class="descricao">Lorem ipsun</td>
+               <td class="soma">R$ 9,99</td>
+          </tr>
+          <tr>
+               <td class="total" colspan="2">Total</td>
+               <td class="valor"colspan="1">R$ 12.909,99</td> 
+          </tr>                   
+          <tr>    
+               <td class="lucro" colspan="3">[LUCRO]</td>
+          </tr> 
      </table>
 </main>                                 
 <footer></footer>

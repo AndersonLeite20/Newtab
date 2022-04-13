@@ -8,6 +8,9 @@ header,nav  {
   width: 100%;
   height:60px;
 }
+main {
+  padding: 0px 20px;
+}
 .div_nav {
   background-color: #DADADA;
   width: 100%;
@@ -16,14 +19,14 @@ header,nav  {
   justify-content: space-between;
 }
 .nav_titulo {
-  margin-top: 10px;
+  margin-top: 15px;
   font-size: 20px;
   line-height: 24px;
 }
 .img_logo {
   width: 30px;
   height: 27.63px;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-left: 20px;
 }
 #logo {
@@ -42,7 +45,7 @@ header,nav  {
   background-color: #DADADA;
   padding: 2px;
   top: 20px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 span {
   width: 18px;
@@ -54,56 +57,57 @@ span {
 .lista {
   display: none;
 }
-
-
-
-form {
-  display: block;
-  width: 98%;
-  margin: auto;
-}
 input,select {
   border: 1px solid #dadadacf;
-}
-.conteiner_a {
-
 }
 #nov_transaçao {
   display: none;
 }
 .container_a {
-  width: 97%;
-  margin: auto;
   display: flex;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
 }
 .sub_conteiner {
-  width: 97%;
-  margin-bottom: 20px;
-  
+  margin-bottom: 28.56px;
+  border-bottom: 1px solid #dadadacf;
+  padding-bottom: 10px;
+  margin-top: 29px;
 }
-.sub_conteiner_fim {
-  margin: 20px 20px;
-  
+#nova_transacao {
+  display: none;
+}
+input,label,select {
+  font-size: 14px;
+  line-height: 22px;
 }
 .div_bloco_a {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 22px;
 }
 .div_bloco_b {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 22px;
 }
 .div_bloco_c {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 22px;
 }
 .div_bloco_d {
   display: flex;
   height: 32px;
   margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 22px;
 }
 .div_bloco_d > button {
   width: 100%;
@@ -112,18 +116,11 @@ input,select {
   border-radius: 4px;
   font-size: 14px;
   line-height: 22px;
-  margin: 0px 20px;
-}
-#linha {
-  width: 80%;
-  height: 1px;
-  background-color: black;
-  padding: 0px 20px;
-  margin: auto;
 }
 caption {
   font-size: 18px;
   line-height: 22px;
+  margin-bottom: 21px;
 }
 table {
   border-collapse: collapse;
@@ -135,13 +132,12 @@ table {
   text-align: left;
   font-size: 14px;
   line-height: 22px;
-  padding: 0px 20px;
+  padding-left: 25px;
 }
 .valor {
   text-align: right;
   font-size: 14px;
   line-height: 22px;
-  padding: 0px 20px;
 }
 th {
   border-bottom: 1px solid #DADADA;
@@ -154,25 +150,23 @@ td {
   line-height: 16px;
 }
 .mais,.menos {
+  border-bottom: 1px solid #DADADA; 
+  width: 9px;
   text-align: center;
-  border-bottom: 1px solid #DADADA;
-  
+  padding-right: 20px;
 }
-
 .descricao {
   border-bottom: 1px solid #DADADA;
-  padding-left: 10px;
 }
 .soma {
   text-align: right;
   font-size: 14px;
   line-height: 22px;
   border-bottom: 1px solid #DADADA;
-  padding-right: 20px;
 }
 .total {
   border-top: 1px solid black;
-  padding-left: 20px;
+  padding-left: 25px;
 }
 .valor {
   text-align: right;
@@ -181,16 +175,11 @@ td {
   text-align: right;
   font-size: 10px;
   line-height: 22px;
-  padding-right: 20px;
 }
 footer {
   width: 100%;
   height: 8px;
   background-color: black;
-}
-@media (max-width:411px) {
-      
-
 }
 
 
