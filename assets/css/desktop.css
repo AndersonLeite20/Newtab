@@ -1,4 +1,8 @@
 @charset "utf-8";
-@media (max-whidth:1500px) {
+@media (min-width:1112px) {
+ .nav_titulo {
+     position: absolute;
+     left: 7%; 
+ }
  
 }
