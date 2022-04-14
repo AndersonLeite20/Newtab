@@ -35,9 +35,29 @@ main {
 }
 .menu_conteiner {
   margin-right: 20px;
+  width: 150px;
+  height: 380px;
+  background-color: #333333;
+  position: relative;
 }
 #check {
-  display: none;
+ display: none;
+}
+.checkbtn {
+  position: absolute;
+  z-index: 1;
+}
+input [type="check"]:check ~ .menu_conteiner {
+  transform: translateX(160px);
+}
+a {
+  color: white;
+  display: block;
+  font-size: 16px;
+  line-height: 19.2px;
+}
+a:hover {
+  background-color: #C4C4C4;
 }
 .menu {
   width: 24px;
@@ -55,10 +75,27 @@ span {
   display: block;
 }
 .lista {
-  display: none;
+  display: flex;
+}
+ul {
+  position: absolute;
+  top: 60px;
+  width: 100%;
+}
+li {
+  display: block;
+}
+a {
+  text-decoration: none;
 }
 input,select {
   border: 1px solid #dadadacf;
+  height: 32px;
+  padding-left: 12px;
+}
+#input_nome,#input_valor {
+  height: 32px;
+  padding-left: 12px;
 }
 #nov_transaçao {
   display: none;
