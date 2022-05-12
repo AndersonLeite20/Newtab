@@ -4,4 +4,40 @@
      position: absolute;
      left: 7%; 
  }
+ .label {
+    display: none;
+ }
+ ul {
+    display: flex;
+    width: 100%;
+    position: initial;
+    padding-top: 0px;
+    width: 800px;
+    background-color: #DADADA;
+    transform: translateX(250px)
+ }
+ .li_1 {
+    display: inline-flex;
+    margin: auto;
+    margin-right: 3px;
+ }
+ .li_2 {
+    display: inline-flex;
+    margin: auto;
+    margin-left: 3px;
+ }
+ .a_1 {
+    background-color: white;
+    color: black;
+    padding: 5px;
+ }
+ .a_2 {
+    background-color: white; 
+    color: black;
+    padding: 5px;
+ }
+ a:hover {
+     background-color: white;
+     color: blue;
+ }
 }
