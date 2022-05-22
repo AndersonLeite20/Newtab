@@ -67,24 +67,24 @@ span {
   margin-top: 4px;
   display: block;
 }
-ul {
-  width: 300px;
+.uls {
+  width: 350px;
   height: 100%;
+  float: left;
+  position: absolute;
   transform: translateX(200px);
   z-index: 3;
   background-color: black;
   text-align: end;
   overflow: hidden;
   top: 60px;
-  padding-top: 15px;
-  position: absolute;
-  display: block;
+  
   list-style: none;
-  left:-500px;
-  transition: all 0.5s;
+  left:-350px;
+  transition: all 1s;
 }
 input[type="checkbox"]:checked ~ ul {
-  transform: translateX(370px);
+  transform: translateX(-350px);
 }
 a {
   display: block;
@@ -190,7 +190,7 @@ th {
   border-bottom: 1px solid #DADADA;
 }
 tr {
-  height: 41.83px;
+  height: 50px;
 }
 .mercadoria {
   text-align: left;

@@ -1,0 +1,2 @@
+// local storage
+let objetlocalstorage = [];
