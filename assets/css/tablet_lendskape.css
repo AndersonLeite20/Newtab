@@ -1,44 +1,53 @@
 @charset "utf-8";
 @media (min-width:768px) {
-     main {
-          width: 96%;
-          display: flex;
-     }
-     form {
-          width: 40%;
-          margin-right: 10px;
-     }
+     .nav_titulo {
+          position: absolute;
+          left: 7%; 
+      }
+      .label {
+        display: none;
+      }
+      .div_ul {
+        background-color: #C4C4C4;
+        display: flex;
+        flex-direction: inherit;
+        padding: 0px;
+        height: 60px;
+        position: relative;
+        width: 40%;
+        margin-right: 20px;
+        justify-content: center;
+  
+      }
+      .li_1 {
+        margin-right: 2px;
+        background-color: white;
+        height: 30px;
+        margin-top: 10px;
+      }
+      .li_2 {
+        margin-right: 2px;
+        background-color: white;
+        height: 30px;
+        margin-top: 10px;
+      }
+      .a_1 {
+        
+        color: black;
+        padding: 5px;
+        font-size: 16px;
+        text-align: center;
+      }
+      .a_2 {
+        
+        color: black;
+        padding: 5px;
+        font-size: 16px;
+        text-align: center;
+      }
+      a:hover {
+          background-color: white;
+          color: blue;
+      }
      
-     table {
-          margin-left: 10px;
-          width: 60%;
-          margin-top: 47px;
-     }
-     .sub_conteiner {
-          margin-top: 25px;
-     }
-     .sub_conteiner_a {
-         height: 344px;
-     }
-     .sub_conteiner_fim {
-          display: block;
-          padding-left: 14.9px;
-          padding-right: 14.9px;
-     }
-     .div_bloco_a {
-          width: 100%;
-     }
-     .div_bloco_b {
-          width: 100%;
-     }
-     .div_bloco_c {
-          width: 100%;
-     }
-     .div_bloco_d > button {
-          width: 100%;
-          height: 32px;
-          padding-left: 14.9px;
-          padding-right: 14.9px;
-          margin-bottom: 20.22px;
-     }
 }
